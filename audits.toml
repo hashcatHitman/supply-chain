@@ -1,0 +1,82 @@
+
+[[audits.proc-macro2]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.94 -> 1.0.95"
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
+
+[[audits.proc-macro2]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.95 -> 1.0.96"
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
+
+[[audits.proc-macro2]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.96 -> 1.0.97"
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
+
+[[audits.proc-macro2]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.97 -> 1.0.98"
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
+
+[[audits.proc-macro2]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.98 -> 1.0.99"
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
+
+[[audits.proc-macro2]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.99 -> 1.0.100"
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
+
+[[audits.proc-macro2]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.100 -> 1.0.101"
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
+
+[[audits.proc-macro2]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.101 -> 1.0.102"
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
+
+[[audits.proc-macro2]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.102 -> 1.0.103"
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
+
+[[audits.proc-macro2]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.103 -> 1.0.104"
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
+
+[[audits.proc-macro2]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+delta = "1.0.104 -> 1.0.105"
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
+
+[[audits.unicode-ident]]
+who = "hashcatHitman <155700084+hashcatHitman@users.noreply.github.com>"
+criteria = "safe-to-deploy"
+version = "1.0.22"
+notes = """
+Safety invariants for the two `unsafe` blocks were verified locally using `kani`
+`v0.67.0`. The code doesn't appear to do any concerning filesystem access,
+network access, or code generation. No effort has been made on my part to verify
+the actual correctness of the implementation, but given that the bulk of it
+seems to be generated from a specification and the vast majority of the Rust
+ecosystem depends on this crate transitively, I'm going to give it the benefit
+of the doubt and say it is probably fine, especially since earlier versions have
+already been audited by several registry members such as Google and Mozilla.
+"""
+aggregated-from = "https://raw.githubusercontent.com/hashcatHitman/hack-vm-translator/refs/heads/main/supply-chain/audits.toml"
